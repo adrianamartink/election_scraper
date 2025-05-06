@@ -179,7 +179,7 @@ def main():
     output_name = sys.argv[2]
 
     print(f"\n Starting to fetch election data from: {link}")
-    print(f"📄 The final results will be saved to: {output_name}.csv\n")
+    print(f"The final results will be saved to: {output_name}.csv\n")
 
     # Try downloading the main election page
     try:
