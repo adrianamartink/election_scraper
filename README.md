@@ -32,8 +32,7 @@ Step 1: Clone the project and navigate to the folder
 Step 2: Create a virtual environment (optional but recommended)
 
     python -m venv .venv
-    source .venv/bin/activate          # on Linux/macOS
-    .venv\Scripts\activate             # on Windows
+    .venv\Scripts\activate             
 
 Step 3: Install required libraries
 
@@ -53,7 +52,7 @@ Where:
 
 Example:
 
-    python projekt_3.py https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2103 vysledky_benesov
+    python projekt_3.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2103" vysledky_benesov
 
 This will:
 - Fetch results for Benešov
